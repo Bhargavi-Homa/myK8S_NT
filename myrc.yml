@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: java-container
-          image: homadevi/myjavaapp7aug21
+          image: homadevi/myjavaapp7aug21:1
           ports:
-            - containerPort: 80
+            - containerPort: 8080
