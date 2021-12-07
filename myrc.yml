@@ -6,15 +6,15 @@ spec:
   replicas: 2
   selector:
     app: myjava-pod
-    version: 2.3.1
+    version: 2.3.2
   template:
     metadata:
       labels:
         app: myjava-pod
-        version: 2.3.1
+        version: 2.3.2
     spec:
       containers:
         - name: java-container
-          image: homadevi/myjavaapp7aug21:1
+          image: homadevi/myjavaapp7aug21:2
           ports:
             - containerPort: 8080
